@@ -31,14 +31,14 @@ header {
 .showcase {
   background-color: #f0efe9;
   position: relative;
-  z-index:0 ;
-  .Element {
-    position:absolute ;
+  z-index: 0;
+
+  .element {
+    position: absolute;
     bottom: 0;
     z-index: -1;
     left: 0;
   }
-
 }
 
 .container-hero {
@@ -71,21 +71,55 @@ p {
   color: #212529;
   background-color: #f8f9fa;
 
-  border-color:1px solid #191919;
+  border-color: 1px solid #191919;
   font-weight: 600;
   font-size: 16px;
   padding: 12px 25px;
 }
 .btn-warning {
   color: #212529;
-  background-color: #ffc107;
-  border-color: #ffc107;
+  background-color: #f9d783;
+  border-color: 1px solid #191919;
   font-weight: 600;
   font-size: 16px;
   padding: 12px 25px;
 }
-.btn-warning:hover {
-  color: #212529;
-  background-color: #e0a800;
-  border-color: #d39e00;
+
+.features-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.advice,
+.financial,
+.startup,
+.risk {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+ 
+ 
+  
+}
+
+
+.btn-yellow {
+  background-color: #f9d783;
+  border: 1px solid #f9d783;
+  color: #191919;
+  text-decoration: none;
+  padding: 8px 25px;
+  font-weight: 600;
+  border-radius: 25px;
+}
+
+p {
+  font-family: "Inter, sans-serif";
+  font-weight: 400;
+  font-size: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
