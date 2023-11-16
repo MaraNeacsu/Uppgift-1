@@ -75,6 +75,7 @@ h1 {
   font-weight: 600;
   font-size: 16px;
   padding: 12px 25px;
+  transition: backround 0.15s ease-in-out, border 0.15s ease-in-out;
 }
 
 .btn-warning {
@@ -84,6 +85,7 @@ h1 {
   font-weight: 600;
   font-size: 16px;
   padding: 12px 25px;
+  transition: backround 0.15s ease-in-out, border 0.15s ease-in-out;
 }
 
 /* Features*/
@@ -134,11 +136,17 @@ h2 {
   font-size: 16px;
   padding: 10px 20px;
   border-radius: 25px;
+  transition: backround 0.15s ease-in-out, border 0.15s ease-in-out;
+}
+
+.btn-yellow:hover {
+  background-color: #f9d783;
+  color: #191919;
 }
 
 .features-container i {
-  font-size: 1rem;
-  font-weight: light;
+  font-size: 0.9rem;
+  font-weight: 300;
   color: #191919;
   margin: 5px;
 }
@@ -269,6 +277,12 @@ h4 {
   padding: 12px 25px;
   border-radius: 25px;
   text-decoration: none;
+  transition: backround 0.15s ease-in-out, border 0.15s ease-in-out;
+}
+
+.btn-black:hover {
+  background-color: #ffffff;
+  color: #191919;
 }
 
 .container-company i {
@@ -392,6 +406,12 @@ i.fa-thin {
   justify-content: center;
   align-items: center;
   width: 100%;
+  transition: backround 0.15s ease-in-out, border 0.15s ease-in-out;
+}
+
+.center-button:hover {
+  background-color: #f9d783;
+  color: #191919;
 }
 
 .btn-transparent {
@@ -405,6 +425,12 @@ i.fa-thin {
   font-weight: light;
   font-size: 16px;
   margin-top: 20px;
+  transition: backround 0.15s ease-in-out, border 0.15s ease-in-out;
+}
+
+.btn-transparent:hover {
+  background-color: #f9d783;
+  color: #191919;
 }
 
 .services {
@@ -448,7 +474,6 @@ i.fa-thin {
   margin-left: 70px;
 }
 
-/* Style the "Why We are Best Business Consulting Agency" heading */
 .content-why #us {
   font-size: 40px;
   font-weight: bold;
@@ -457,7 +482,6 @@ i.fa-thin {
   margin-left: 70px;
 }
 
-/* Style the list items */
 .content-why ul {
   list-style: none;
   padding: 0;
@@ -500,7 +524,6 @@ i.fa-thin {
   margin-right: 60px;
 }
 
-/* project&case studies */
 .container-project {
   display: flex;
   flex-direction: column;
@@ -567,11 +590,11 @@ i.fa-thin {
 }
 
 .card-project i {
-  font-size: 1rem;
-  font-weight: light;
+  font-size: 0.9rem;
+  font-weight: 300;
   color: #191919;
   display: flex;
-  margin: 10px;
+  margin: 5px;
 }
 
 .project-button {
@@ -579,6 +602,7 @@ i.fa-thin {
   justify-content: center;
   align-items: center;
   width: 100%;
+  transition: backround 0.15s ease-in-out, border 0.15s ease-in-out;
 }
 
 .btn-project {
@@ -587,6 +611,15 @@ i.fa-thin {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  transition: backround 0.15s ease-in-out, border 0.15s ease-in-out;
+}
+
+.btn-project i {
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: #191919;
+  display: flex;
+  margin: 5px;
 }
 
 /*meet our team*/
@@ -647,6 +680,7 @@ i.fa-thin {
   font-weight: light;
   font-size: 16px;
   margin-right: 120px;
+  transition: backround 0.15s ease-in-out, border 0.15s ease-in-out;
 }
 
 .btn-meet:hover {
@@ -696,7 +730,6 @@ i.fa-thin {
 }
 
 /*testimonial*/
-/* Style the testimonial container */
 .container-testimonial {
   display: flex;
   background-color: #ffffff;
@@ -779,6 +812,7 @@ h5 {
   justify-content: center;
   margin: 20px 0;
   margin-bottom: 40px;
+  transition: backround 0.15s ease-in-out, border 0.15s ease-in-out;
 }
 
 .container-testimonial i {
@@ -841,6 +875,7 @@ h5 {
   top: 10px;
   margin-bottom: 20px;
   right: 10px;
+  transition: backround 0.15s ease-in-out, border 0.15s ease-in-out;
 }
 
 .btn-articles:hover {
@@ -933,11 +968,13 @@ h5 {
   color: #191919;
   opacity: 0.8;
   border-radius: 25px;
+  margin: 20px 10px;
   font-weight: light;
   font-size: 16px;
   top: 10px;
   margin-bottom: 20px;
   right: 10px;
+  transition: backround 0.15s ease-in-out, border 0.15s ease-in-out;
 }
 
 .btn-email:hover {
@@ -959,6 +996,7 @@ h5 {
   margin-top: 20px;
   margin-right: 200px;
   margin: 10px 0;
+  transition: backround 0.15s ease-in-out, border 0.15s ease-in-out;
 }
 
 .btn-blog:hover {
@@ -973,8 +1011,8 @@ h5 {
 }
 
 .container-news i {
-  font-size: 1rem;
-  font-weight: light;
+  font-size: 0.9rem;
+  font-weight: 300;
   display: flex;
   margin: 5px;
 }
