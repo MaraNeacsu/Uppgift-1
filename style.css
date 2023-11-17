@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700&family=Inter:wght@200;300;400;500;600;700&display=swap");
-/*Hero part */
-.color {
+html, body {
   color: #191919;
   font-family: "Inter", sans-serif;
   font-size: 16px;
@@ -278,6 +277,7 @@ h4 {
   border-radius: 25px;
   text-decoration: none;
   transition: backround 0.15s ease-in-out, border 0.15s ease-in-out;
+  margin: 20px 10px;
 }
 
 .btn-black:hover {
@@ -290,6 +290,18 @@ h4 {
   font-weight: light;
   color: #ffffff;
   margin: 5px;
+}
+
+.intro-video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-left: 60px;
+  margin-right: 60px;
+  position: relative;
+  z-index: 1;
 }
 
 /*our services*/

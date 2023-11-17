@@ -2,7 +2,9 @@
 
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700&family=Inter:wght@200;300;400;500;600;700&display=swap");
 
-color {
+
+html, body{
+
   color: #191919;
   font-family: "Inter", sans-serif;
   font-size: 16px;
@@ -214,6 +216,7 @@ margin-top: 80px;
   height: 500px;
 }
 
+/*footer*/
 .container-footer {
   padding: 20px;
   display: flex;

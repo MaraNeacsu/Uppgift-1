@@ -2,14 +2,16 @@
 
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700&family=Inter:wght@200;300;400;500;600;700&display=swap");
 
-/*Hero part */
-.color {
+html, body{
+
   color: #191919;
   font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
 }
+
+
 
 .page-container {
   height: 100vh;
@@ -275,6 +277,7 @@ h4 {
   border-radius: 25px;
   text-decoration: none;
   transition: backround 0.15s ease-in-out, border 0.15s ease-in-out;
+  margin: 20px 10px; 
 }
 .btn-black:hover {
   background-color: #ffffff;
@@ -285,6 +288,17 @@ h4 {
   font-weight: light;
   color: #ffffff;
   margin: 5px;
+}
+.intro-video{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-left: 60px;
+  margin-right: 60px;
+  position: relative;
+  z-index: 1;
 }
 
 /*our services*/
@@ -404,10 +418,12 @@ i.fa-thin {
   width: 100%;
   transition: backround 0.15s ease-in-out, border 0.15s ease-in-out;
 }
+
 .center-button:hover {
   background-color: #f9d783;
   color: #191919;
 }
+
 .btn-transparent {
   display: inline-block;
 
@@ -422,6 +438,7 @@ i.fa-thin {
   margin-top: 20px;
   transition: backround 0.15s ease-in-out, border 0.15s ease-in-out;
 }
+
 .btn-transparent:hover {
   background-color: #f9d783;
   color: #191919;
@@ -613,6 +630,7 @@ i.fa-thin {
   display: flex;
   margin: 5px;
 }
+
 /*meet our team*/
 
 .container-team {
@@ -811,6 +829,7 @@ h5 {
 .testimonial-button:hover {
   background-color: #191919;
 }
+
 /*blog*/
 .container-blog {
   display: flex;
@@ -997,6 +1016,7 @@ h5 {
   display: flex;
   margin: 5px;
 }
+
 /*footer*/
 
 .container-footer {
